@@ -28,7 +28,7 @@ class Register extends React.Component {
   }
 
   onSubmit() {
-    fetch("http://localhost:3000/register", {
+    fetch("https://facerecoggnitionbrain-api.herokuapp.com/register", {
       method: "POST",
       headers: { "Content-type": "application/json" },
       body: JSON.stringify({
